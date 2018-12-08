@@ -26,19 +26,4 @@
 
     <h1>Hello, world!</h1>
 
-    <form>
-    	<fieldset>
-    	<p>First Name:</p>
-    	<input type="text" name="firstname">
-    	<p>Last Name:</p>
-    	<input type="text" name="lastname">
-    	<p><input type="checkbox" name="anonymous"> I'd prefer to make an anonymous donation.</p>
-    	<p>E-mail:</p>
-    	<input type="text" name="email">
-    	<p><input type="radio" name="newsletter" value="yes" checked> Yes! Please add me to the JMF Newsletter and keep me updated on upcoming events and news!</p>
-    	<p><input type="radio" name="newsletter" value="no"> No, thank you, I get too many emails already.</p>
-    	<button type="button">Donate!</button>
-    	</fieldset>
-    </form>
-
 <?php include 'incs/footer.php'; ?> 
