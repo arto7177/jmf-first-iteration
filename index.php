@@ -2,13 +2,11 @@
 
 $greeting = "Hello World!";
 
-require 'donees.php';
 
-require 'functions.php';
+$query = require 'bootstrap.php';
 
-$pdo = connectToDb();
 
-$donees =fetchAllDonees($pdo);
+$donees = $query->selectAll('donees');
 
 
 require 'index.view.php';
