@@ -2,11 +2,10 @@
 
 $greeting = "Hello World!";
 
-
 $query = require 'bootstrap.php';
 
+$router = new Router;
 
-$donees = $query->selectAll('donees');
+require 'routes.php';
 
-
-require 'index.view.php';
+$router -> direct
