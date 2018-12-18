@@ -2,10 +2,10 @@
 
 $greeting = "Hello World!";
 
-$query = require 'bootstrap.php';
+$query = require 'core/bootstrap.php';
 
 $router = new Router;
 
 require 'routes.php';
 
-$router -> direct
+require $router -> direct('');

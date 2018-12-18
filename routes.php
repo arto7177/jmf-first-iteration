@@ -1,7 +1,7 @@
 <?php
 
 $router ->define([
-    '' => 'controllers/index.php',
-    'about' => 'controllers/about.php',
-    'donate' => 'controllers/donate.php'
+    '' => 'controller/index.php',
+    'about' => 'controller/about.php',
+    'donate' => 'controller/donate.php'
 ]);
