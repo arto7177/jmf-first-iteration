@@ -1,5 +1,5 @@
 <?php
 
-$donees = $query->selectAll('donees');
+$donees = $app['database']->selectAll('donees');
 
 require 'views/index.view.php';
