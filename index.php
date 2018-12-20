@@ -1,7 +1,5 @@
 <?php
 
-$greeting = "Hello World!";
-
 $query = require 'core/bootstrap.php';
 
 
