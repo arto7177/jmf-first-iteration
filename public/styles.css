@@ -1,0 +1,33 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: #333333;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+h1, h3, h5, a {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*Font Styles*/
+
+a {
+    color: #333333;
+    font-size: 1.5em;
+}
+
+/*Navigation Style*/
+
+h5 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h5 span {
+    background: #ffffff;
+    padding: 0 10px;
+}
+/*Header Styles*/
