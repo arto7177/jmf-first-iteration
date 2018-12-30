@@ -16,6 +16,10 @@ a {
     font-size: 1.5em;
 }
 
+.underline {
+    border-bottom: #F57D2F 3px solid;
+}
+
 #donate:hover {
     background-color: #F57D2F;
 }

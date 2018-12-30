@@ -1,16 +1,4 @@
-<script type="text/javascript">
-    switch (window.location.pathname) {
-        case '/':
-            $('#news').addClass('active');
-            break;
-        case '/about':
-            $('#about').addClass('active');
-            break;
-        case '/donate':
-            $('#donate').addClass('active');
-            break;
-    }
-</script>
+
 <ul class="nav">
     <li class="nav-item">
         <a class="nav-link" href="/" id="news">News/Events</a>

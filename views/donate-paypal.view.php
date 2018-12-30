@@ -1,8 +1,8 @@
 <?php require('partials/header.php'); ?>
 
-    <div class="container">
-        <h5><span>Donate</span></h5>
-    </div>
+<div class="container">
+    <h5><span>Donate</span></h5>
+</div>
 <div class="container">
     <form method="post" action="/names">
         <div class="form-group">
@@ -38,7 +38,7 @@
             <p>Choose Payment Method</p>
             <div class="row">
                 <div class="col-md-6">
-                    <button type="submit" class="pay-btn" id="paypal"><img src="public/img/paypallogo2.png" class="paypal-logo"></button>
+                    <button type="submit" class="pay-btn" id="paypal" disabled><img src="public/img/paypallogo2.png" class="paypal-logo"></button>
                 </div>
                 <div class="col-md-6">
                     <button type="submit" class="pay-btn" disabled>Credit Card</button>
@@ -47,8 +47,6 @@
         </div>
     </form>
 
-    <button id="paypal-btn" class="btn btn-primary" style="display: none">Paypal Button</button>
+    <button id="paypal-btn" class="btn btn-primary">Paypal Button</button>
 
 </div>
-
-<?php require('partials/footer.php'); ?>
