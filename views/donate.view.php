@@ -1,36 +1,38 @@
 <?php require('partials/header.php'); ?>
 
-<h1>Donate</h1>
+    <div class="container">
+        <h5><span>Donate</span></h5>
+    </div>
 <div class="container">
     <form method="post" action="/names">
         <div class="form-group">
-            <label for="inputFirstName">First Name</label>
-            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="First Name">
         </div>
         <div class="form-group">
-            <label for="inputLastName">Last Name</label>
-            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
         </div>
         <div class="form-group">
-            <label for="inputAddress">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Address">
         </div>
         <div class="form-group">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="City">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="City">
         </div><div class="form-group">
-            <label for="inputState">State/Province</label>
-            <input type="text" class="form-control" id="inputState" placeholder="State/Province">
+            <label for="state">State/Province</label>
+            <input type="text" class="form-control" id="state" placeholder="State/Province">
         </div><div class="form-group">
-            <label for="inputZip">Zip/Postal Code</label>
-            <input type="number" class="form-control" id="inputZip" placeholder="Zip/Postal Code">
+            <label for="zip">Zip/Postal Code</label>
+            <input type="text" class="form-control" id="zip" placeholder="Zip/Postal Code">
         </div><div class="form-group">
-            <label for="inputPhone">Phone</label>
-            <input type="tel" class="form-control" id="inputPhone" placeholder="Phone Number">
+            <label for="phone">Phone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
         </div>
         <div class="form-group">
-            <label for="inputEmail">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+            <label for="Email">Email address</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter email">
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

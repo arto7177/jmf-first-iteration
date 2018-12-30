@@ -1,13 +1,8 @@
   <?php require('partials/header.php'); ?>
 
+    <div class="container">
+        <h5><span>News/Events</span></h5>
+    </div>
 
-    <h1>Submit Your Name</h1>
-
-  <form method="post" action="/names">
-      <input name="firstname" type="text">
-      <input name="lastname" type="text">
-      <input name="email" type="text">
-      <button type="submit">Submit</button>
-  </form>
 
   <?php require('partials/footer.php'); ?>
