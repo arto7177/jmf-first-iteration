@@ -34,7 +34,17 @@
             <label for="Email">Email address</label>
             <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="container">
+            <p>Choose Payment Method</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <button type="submit" class="pay-btn"><img src="public/img/paypallogo2.png" class="paypal-logo"></button>
+                </div>
+                <div class="col-md-6">
+                    <button type="submit" class="pay-btn" disabled>Credit Card</button>
+                </div>
+            </div>
+        </div>
     </form>
 
 

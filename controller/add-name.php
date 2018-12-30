@@ -12,4 +12,3 @@ $app['database']->insert('donees', [
 ]);
 
 
-header('Location: /');

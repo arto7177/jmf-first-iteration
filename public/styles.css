@@ -12,8 +12,12 @@ h1, h3, h5, a {
 /*Font Styles*/
 
 a {
-    color: #333333;
+    color: #004B8E;
     font-size: 1.5em;
+}
+
+#donate:hover {
+    background-color: #F57D2F;
 }
 
 /*Navigation Style*/
@@ -32,6 +36,18 @@ h5 span {
 }
 /*Header Styles*/
 
-.jack {
-
+.pay-btn{
+    width: 264px;
+    height: 50px;
+    background-color: white;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.paypal-logo {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
