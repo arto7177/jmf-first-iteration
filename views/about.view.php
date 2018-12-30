@@ -29,5 +29,11 @@
                 We also support school anti-bullying programs.</p>
         </div>
     </div>
+    <div class="container">
+        <h3>What is Osteosarcoma?</h3>
+        <p>While rare, Osteosarcoma is the most common type of Bone Cancer. The cancer usually begins in the cells that
+            form bones and is most often found in the long bones. Osteosarcoma tends to occur in teenagers and young
+            adults but can also occur in young children and older adults.</p>
+    </div>
 </div>
 <?php require('partials/footer.php'); ?>
