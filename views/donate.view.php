@@ -41,13 +41,12 @@
                     <button type="submit" class="pay-btn" id="paypal"><img src="public/img/paypallogo2.png" class="paypal-logo"></button>
                 </div>
                 <div class="col-md-6">
-                    <button type="submit" class="pay-btn" disabled>Credit Card</button>
+
                 </div>
             </div>
         </div>
     </form>
 
-    <button id="paypal-btn" class="btn btn-primary" style="display: none">Paypal Button</button>
 
 </div>
 
