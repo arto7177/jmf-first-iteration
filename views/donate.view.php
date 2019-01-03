@@ -28,7 +28,7 @@
             <input type="text" class="form-control" id="zip" placeholder="Zip/Postal Code" name="zip">
         </div><div class="form-group">
             <label for="phone">Phone</label>
-            <input type="tel" class="form-control" id="phone" placeholder="Phone Number" name="phone">
+            <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
         </div>
         <div class="form-group">
             <label for="Email">Email address</label>

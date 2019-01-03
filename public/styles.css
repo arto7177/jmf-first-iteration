@@ -16,7 +16,7 @@ a {
     font-size: 1.5em;
 }
 
-.underline {
+.underline:hover {
     border-bottom: #F57D2F 3px solid;
 }
 
@@ -40,6 +40,23 @@ h5 span {
 }
 /*Header Styles*/
 
+.img-margin {
+    margin: 10px;
+}
+
+/*index styles*/
+
+.jack {
+    float: left;
+    padding: 0 15px 0 15px;
+}
+
+/*about styles*/
+input[type="text"] {
+    background-color: rgb(235, 235, 235);
+    border: rgb(200, 200, 200) 1px solid;
+}
+
 .pay-btn{
     width: 264px;
     height: 50px;
@@ -55,3 +72,13 @@ h5 span {
     min-width: 100%;
     min-height: 100%;
 }
+
+.paypal-container{
+    margin-top: 15px;
+}
+
+.paypal-btn {
+    width: 175px;
+    height: auto;
+}
+/*Donate Page Styles*/

@@ -14,8 +14,8 @@
       <h3>Manhattan College Women's Soccer vs Hofstra University</h3>
       <div class="row">
           <div class="col-md-6">
-            <img src="public/img/coolAndGang.jpg" class="img-fluid">
-            <img src="public/img/check.jpg" class="img-fluid">
+            <img src="public/img/coolAndGang.jpg" class="img-fluid img-margin">
+            <img src="public/img/check.jpg" class="img-fluid img-margin">
 
           </div>
           <div class="col-md-6">
@@ -40,7 +40,7 @@
       </div>
       <div class="row">
           <div class="col-md-12">
-              <img src="public/img/errybody.jpg" class="img-fluid">
+              <img src="public/img/errybody.jpg" class="img-fluid img-margin">
           </div>
       </div>
   </div>
