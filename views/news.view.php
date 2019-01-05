@@ -11,7 +11,7 @@
 
 <div class="container">
     <h3>Past Events</h3>
-    <h3>Manhattan College Women's Soccer vs Niagra University</h3>
+    <h3 style="color: black; font-family: 'Open Sans', sans-serif">Manhattan College Women's Soccer vs Niagra University</h3>
     <div class="row">
         <div class="col-md-6">
             <img src="public/img/coolAndGang.jpg" class="img-fluid img-margin">
@@ -44,4 +44,5 @@
         </div>
     </div>
 </div>
+<?php require('partials/footing.php'); ?>
 <?php require('partials/footer.php'); ?>

@@ -26,5 +26,5 @@
   </div>
 
 
-
+  <?php require('partials/footing.php'); ?>
   <?php require('partials/footer.php'); ?>
