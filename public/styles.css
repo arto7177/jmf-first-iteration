@@ -1,12 +1,22 @@
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+
     color: #333333;
     font-size: 1em;
     line-height: 1.25em;
 }
 
-h1, h3, h5, a {
-    font-family: 'Archivo Narrow', sans-serif;
+h1, h3, h5 {
+    font-family: 'Pangolin', cursive;
+    color: #004B8E;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 /*Font Styles*/
@@ -14,6 +24,15 @@ h1, h3, h5, a {
 a {
     color: #004B8E;
     font-size: 1.5em;
+}
+
+.logo-link {
+    font-family: 'Pangolin', cursive;
+    font-size: 2.5em;
+}
+
+.navbar-light .navbar-brand {
+    color: #004B8E;
 }
 
 .underline:hover {
@@ -46,10 +65,13 @@ h5 span {
 
 /*index styles*/
 
-.jack {
-    float: left;
-    padding: 0 15px 0 15px;
+.logo {
+    max-height: 200px;
+    max-width: 200px;
 }
+
+
+
 
 /*about styles*/
 input[type="text"] {

@@ -1,49 +1,30 @@
   <?php require('partials/header.php'); ?>
 
-    <div class="container">
-        <h5><span>News/Events</span></h5>
-    </div>
-  <div class="container">
-      <h3>News/Upcoming Events</h3>
-      <p>Come and back and visit our site soon for news about future events we are planning,
-          i.e. The Inaugeral Jack Mattsson Foundation Gala.</p>
-  </div>
+  <?php require('partials/heading.php'); ?>
+
 
   <div class="container">
-      <h3>Past Events</h3>
-      <h3>Manhattan College Women's Soccer vs Hofstra University</h3>
-      <div class="row">
-          <div class="col-md-6">
-            <img src="public/img/coolAndGang.jpg" class="img-fluid img-margin">
-            <img src="public/img/check.jpg" class="img-fluid img-margin">
-
-          </div>
-          <div class="col-md-6">
-              <p>We had our first fundraiser in October 2018.
-                  This one will always be dear to our family.
-                  Many people from all parts of the northeast US made it to the Bronx and were great team boosters rooting on the Manhattan College Jaspers Women’s soccer team to a 1-0 overtime victory.
-                  Our goal was to raise the noise levels at the game and funds for the Foundation.
-                  We are very excited to say we met both of those goals thanks to all our supporters!
-                  Over $7000 was raised from the event!!
-                  It is a great start for the JMF as we are on our way to begin giving to the many who need support –
-                  whether it is through Sarcoma research,
-                  supporting anti-bullying programs in our schools,
-                  and providing financial assistance to patients and their families. </p>
-              <p><strong>A very special thank you goes to:</strong></p>
-              <p><strong>Caroline Taylor, </strong>star Jaspers soccer player,
-                  for working with Manhattan College to get us be recognized at the event and coordinating much behind the scenes activities.</p>
-              <p><strong>Manhattan College </strong>for embracing our foundation and being a wonderful and accommodating host.</p>
-              <p><strong>Bill and Sara Taylor </strong>for donating T-shirts for us to sell.</p>
-              <p><strong>Kathleen Lynch </strong>for providing so much of the food and baked goods.  Nobody went home hungry.</p>
-              <img src="public/img/waterDump.jpg" class="img-fluid">
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-12">
-              <img src="public/img/errybody.jpg" class="img-fluid img-margin">
-          </div>
-      </div>
+      <p>The Jack Mattsson Foundation was established in 2018 to honor our son/brother
+          Jack and his wishes after losing a battle against Osteosarcoma in 2017. It is a rare
+          disease that mostly impacts teenagers and young adults. Nobody fought the fight
+          better than he. So many people made a tremendous impact on Jack and our family
+          during the battle. Family, friends, community, and strangers all were part of Jack’s
+          Army and showed tremendous compassion and generosity during Jack’s difficult
+          times. We are forever grateful and aim to give back and pay forward to others who
+          have trying times.</p>
   </div>
+  <div class="container">
+      <h3>Our Mission</h3>
+      <ul>
+          <li><p>Fund cancer research for Sarcomas, especially Osteosarcoma</p></li>
+          <li><p>Provide financial support to patients and families</p></li>
+          <li><p>Support anti-bullying programs in schools</p></li>
+      </ul>
+  </div>
+  <div class="container">
+
+  </div>
+
 
 
   <?php require('partials/footer.php'); ?>

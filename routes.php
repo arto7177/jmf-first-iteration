@@ -2,6 +2,7 @@
 
 
 $router->get('', 'controller/index.php');
+$router->get('news', 'controller/news.php');
 $router->get('about', 'controller/about.php');
 $router->get('donate', 'controller/donate.php');
 $router->get('thankyou', 'controller/thankyou.php');
